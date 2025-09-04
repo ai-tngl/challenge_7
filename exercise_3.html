@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercises</title>
+  </head>
+  <style>
+    .grid-container {
+      display: grid;
+      max-width: 100%;
+      gap: 5px;
+    }
+    .grid-container div {
+      padding: 40px;
+      color:rgb(9, 73, 73);
+      font-size: 20px;
+      text-align: center;
+    }
+    .box1 { 
+      background: rgb(196, 107, 107); grid-column: 1/3;
+    }
+    .box2 {
+      background: rgb(211, 211, 136); grid-column: 3 / 4; grid-row: 1 / 3;
+    }
+    .box3 {
+      background: rgb(177, 177, 214); grid-column: 4 / 5; grid-row: 1 / 4;
+    }
+    .box4 {
+      background: rgb(147, 240, 147);
+    }
+    .box5 {
+      background: rgb(248, 211, 141);
+    }
+    .box6 {
+      background: rgb(235, 155, 169);
+    }
+  </style>
+
+  <div class="grid-container">
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+    <div class="box3">Box 3</div>
+    <div class="box4">Box 4</div>
+    <div class="box5">Box 5</div>
+    <div class="box6">Box 6</div>
+
+  </div>
+  </html>
